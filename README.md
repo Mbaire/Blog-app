@@ -15,7 +15,7 @@ This  an application whereby;
 ## Setup and installations
 * Clone the repo.
 * Open in terminal
-* Run `python3.8 -m venv --without-pip virtual` (will start server using virtual environment)
+* Run `python3.8 -m venv --without-pip virtual` to start serve using virtual
 * To activate virtual insert: `source virtual/bin/activate`
 * Install flask and other dependancies.
 * Create a file to start the application. `touch start.sh`
