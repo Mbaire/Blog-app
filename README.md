@@ -2,8 +2,8 @@
 ## Author
 Mary Natalie
 ## Description
-This  an application whereby a user can create a Personal Blog, view other blogs posted by other users, like and comment various blogs that have been displayed.More so,they get a dosage of inspirational quotes.
-## User stories
+This  an application whereby;
+
 * As a user, I would like to view the blog posts on the site.
 * As a user, I would like to comment on blog posts.
 * As a user, I would like to view the most recent posts.
