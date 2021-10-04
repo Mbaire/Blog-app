@@ -35,6 +35,3 @@ This is the live link to the project: <a href=""> Blog-app</a>
 ### License
 This project is under [MIT](https://choosealicense.com/licenses/mit/) &COPY; 2021 All Rights Reserved.
 
-Choose a LicenseChoose a License
-MIT License
-A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
