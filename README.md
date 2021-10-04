@@ -1,6 +1,6 @@
 ## Blog-app
 ## Author
-Mary Natalie
+Mary Miringu
 ## Description
 This  an application whereby;
 
