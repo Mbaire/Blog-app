@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as macro %}
+{% from 'macros.html' import displayBlogs as db%}
+{% block content %}
+{% block styles %}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+{% endblock %}
+
+<!-- Content block -->
+<section>
+    <div class="container">
+        <div class="panel">
+            <div class="panel-body">
+                <h5 class="card-title">{{quote.author}}</h5>
+                <p class="card-text">{{quote.quote}}</p>
+                <a href="{{quote.permalink}}"></a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="star star1"></div>
+    <div class="star star2"></div>
+    <div class="star star3"></div>
+    <div class="star star4"></div>
+    <div class="star star5"></div>
+    <div class="star star6"></div>
+    <div class="star star7"></div>
+    <div class="star star8"></div> -->
+</section>
+<br>
+<br>
+<!-- <div class="container">
+    <div class="panel">
+        <div class="panel-body">
+            <h5 class="card-title">{{quote.author}}</h5>
+            <p class="card-text">{{quote.quote}}</p>
+            <a href="{{quote.permalink}}"></a>
+        </div>
+    </div>
+</div> -->
+<div class="container-fluid text-center">
+    <div>
+        <a href="{{url_for('main.new_blog')}}" class="button">Create a Blog</a>
+    </div>
+        
+</div>
+<br>
+<div class="jumbotron">
+    <div class="row">
+        {{db(blogs)}}
+    </div>
+</div>
+
+{% endblock %}
