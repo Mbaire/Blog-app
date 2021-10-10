@@ -3,7 +3,6 @@ import os
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY')
     QUOTE_BASE_URL = 'http://quotes.stormconsultancy.co.uk/random.json'
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:password@localhost/natblogs'
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
@@ -15,6 +14,8 @@ class ProdConfig(Config):
     SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
 
 class DevConfig(Config):
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:password@localhost/natblogs'
+
     pass
     DEBUG = True
 
