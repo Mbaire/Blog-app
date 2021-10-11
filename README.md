@@ -31,7 +31,7 @@ This  an application whereby;
 * HTML/CSS
 * Bootstrap
 ## Deployment
-This is the live link to the project: <a href=""> Blog-app</a>
+This is the live link to the project: <a href="https://marynatblog.herokuapp.com/"> Blog-app</a>
 ### License
 This project is under [MIT](https://choosealicense.com/licenses/mit/) &COPY; 2021 All Rights Reserved.
 
